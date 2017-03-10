@@ -9,7 +9,7 @@ public class ConnectionUtil {
 
 			BasicDataSource ds = new BasicDataSource();
 			ds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-			ds.setUrl("jdbc:mysql://139.59.29.57:3306/vels_db");
+			ds.setUrl("jdbc:mysql://139.59.29.57:3306/vels_db?useSSL=false");
 			ds.setUsername("vels_user");
 			ds.setPassword("Vels_pass_123$");
 			return ds;
